@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gerador.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div class="navbarr">
+            <a href="../home/home.html">  <ion-icon name="arrow-undo-outline"></ion-icon></a>
+          
+            <h1>Gerador de jogos</h1>
+        </div>
+           
+        <div class="middle">
+            <div class="option">
+                <div class="numero">1</div>
+                <div class="numero">2</div>
+                <div class="numero">3</div>
+                <div class="numero">4</div>
+                <div class="numero">5</div>
+                <div class="numero">6</div>
+                <div class="numero">7</div>
+                <div class="numero">8</div>
+                <div class="numero">9</div>
+                <div class="numero">10</div>
+                <div class="numero">11</div>
+                <div class="numero">12</div>
+                <div class="numero">13</div>
+                <div class="numero">14</div>
+                <div class="numero">15</div>
+                <div class="numero">16</div>
+                <div class="numero">17</div>
+                <div class="numero">18</div>
+                <div class="numero">19</div>
+                <div class="numero">20</div>
+                <div class="numero">21</div>
+                <div class="numero">22</div>
+                <div class="numero">23</div>
+                <div class="numero">24</div>
+                <div class="numero">25</div>
+          
+            </div>
+        </div>
+        <div class="info"><h1>5 Restantes</h1></div>
+        <div class="button-gerar"><button>Gerar jogo</button></div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    
+</body>
+<script>
+    
+    function gerarNumeros(){
+        for(let i=0 ; i<25 ; i++){
+            document.querySelector('.option').innerHTML=` <div class="numero"></div>`
+        }
+    }
+    
+ 
+</script>
+</html>

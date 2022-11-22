@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="login.css">
+    
+    <title>Loto facil</title>
+</head>
+<body>
+
+    <div id="hideOnClick" >
+        <div class="logo-image" >   <img src="../assets/img/logo.png" />   </div>
+        <div class="login" >
+          
+                <input type="text" name="email" placeholder=" Email" >
+                <input type="password" name="senha" placeholder="Senha" >
+              <a href="../home/home.html">
+                  <button  id="entrar" >Entrar</button>
+                </a>
+                <a  href="../signup/index.html">
+                  <h1>Ainda nao tem conta ? Cadastre-se</h1>
+                </a>
+           
+        </div>
+    </div>
+
+
+  
+</body>
+
+<script>
+
+var entrar = document.getElementById('entrar');
+var showOnClick = document.getElementById('showOnClick');
+entrar.addEventListener('click', function() {
+    
+  if(showOnClick.style.display === 'flex') {
+    showOnClick.style.display = 'none';
+  } else {
+    showOnClick.style.display = 'flex';
+  }
+});
+
+</script>
+
+</html>
