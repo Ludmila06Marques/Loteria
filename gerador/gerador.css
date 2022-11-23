@@ -61,6 +61,12 @@
 .numero:active{
     transform: scale(1.4);
 }
+/*ALTERA A COR DO BOTAO AO SER CLICADO*/
+.numero:hover,.numero:active {
+    color: #994BA0;
+    background-color: #fcfeffea;
+    
+    }
 
 .info{
     margin-top: 80px;
