@@ -162,14 +162,18 @@ height: 50%;
 .sorteio{
     padding: 5px;
     color: black;
-    font-size: 10px;
+    font-size: 12px;
+    font-family: 'Kanit', sans-serif;
+  
     
 }
+
 .sorteio-tempo{
     padding: 5px;
     color: black;
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 20px;
+    font-family: 'Kanit', sans-serif;
 }
 
   .card img {
