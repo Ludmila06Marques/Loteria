@@ -22,6 +22,10 @@
     color: white;
 
 }
+.navbarr  ion-icon:active{
+    transform: scale(1.1);
+    
+}
 .navbarr h1{
     text-align: center;
     font-size: 22px;

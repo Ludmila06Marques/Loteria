@@ -26,6 +26,9 @@
 
 
 }
+.cadastro  h1:active{
+    transform: scale(0.98);
+}
 .cadastro a{
     text-decoration: none;
 }
