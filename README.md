@@ -13,7 +13,4 @@
 <img src="./assets/img/home.png" width="30%" margin="0" />  
 <img src="./assets/img/gerador.png" width="30%" margin="0" />  
 <img src="./assets/img/save.png" width="30%" margin="0" />  
-
- 
-
 </div>
